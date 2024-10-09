@@ -3,3 +3,7 @@ body {
   margin: 0;
   background-color: #F4D04E;
 }
+
+header, footer {
+  color: #111111;
+}
