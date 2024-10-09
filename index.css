@@ -30,10 +30,28 @@ header, footer {
   border-radius: 10px;
 }
 
-.card-content-title {
+.card-content-status {
   background-color: #F4D04E;
   font-size:medium;
   padding: 10px;
   border-radius: 5px;
   width: fit-content;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.card-content-title {
+  font-size: x-large;
+  font-weight: 900;
+}
+
+
+.card-content-p {
+  color: #6B6B6B;
+  font-size: large;
 }
